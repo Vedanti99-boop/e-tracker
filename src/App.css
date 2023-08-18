@@ -1,0 +1,6 @@
+
+/* Reset margin and padding for the app container */
+.app-container p {
+  margin: 0;
+  padding: 0;
+}

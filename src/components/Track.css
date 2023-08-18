@@ -1,0 +1,113 @@
+/* .Track{
+    border: 1px solid black;
+} */
+
+/* Track.css */
+/* Track.css */
+
+.expense-form {
+    max-width: 400px; /* Adjust the max-width as needed */
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Darker box shadow */
+  }
+  
+  /* Center form within its container */
+  .d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+  }
+  
+  /* Style the "Add Expense" button */
+  .btn {
+    background-color: transparent;
+    border: 2px solid #C4C1A4;
+    color: #C4C1A4;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #C4C1A4;
+    color: #FFF;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Darker box shadow on hover */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .expense-form {
+      max-width: 100%; /* Adjust for smaller screens */
+      box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Revert to lighter box shadow */
+    }
+  }
+  
+  
+
+  /* Track.css */
+
+/* ... your existing styles ... */
+
+.expense-list {
+  margin-top: 20px;
+}
+
+.expense-list h2 {
+  font-size: 24px;
+  margin-bottom: 2%;
+  margin-left: 47%;
+  margin-top: 3%;
+}
+  
+  .expense-list ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+  
+  .expense-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .expense-list span {
+    flex: 1;
+  }
+  
+  .expense-list button {
+    background-color: #C4C1A4;
+    color: #0a0101;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 1%;
+  }
+  
+  .expense-list button.edit {
+    background-color: #ffc107;
+    margin-right: 5px;
+  }
+  
+  .expense-list button.delete {
+    background-color: #dc3545;
+  }
+  
+  .expense-list button:hover {
+    background-color: #333;
+  }
+  

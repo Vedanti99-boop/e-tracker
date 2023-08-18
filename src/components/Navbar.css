@@ -1,0 +1,23 @@
+.font-color{
+    color: #FFF6DC;
+}
+
+.btn-color{
+    background-color: #FFF6DC;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.nav-link:focus{
+    color: black;
+}
+
+.btn:hover{
+    border: 1px solid black;
+}
+
+/* .Navbar{
+    border: 1px solid black;
+} */
