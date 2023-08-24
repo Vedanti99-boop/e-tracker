@@ -4,7 +4,8 @@ import Track from "./components/Track";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Report from "./components/Report";
 import Help from "./components/Help";
-// import Error from "./components/Error"
+import Login from "./components/Login";
+import Error from "./components/Error"
 
 
 
@@ -20,7 +21,8 @@ function App() {
           <Route path="/" element={<Track/>}/>
           <Route path="report" element={<Report/>}/>
           <Route path="help" element={<Help/>}/>
-         {/* <Route path="*" element={Error} /> */}
+          <Route path="login" element={<Login/>}/>
+         <Route path="*" element={<Error/>} />
         </Routes>
        
         </BrowserRouter>

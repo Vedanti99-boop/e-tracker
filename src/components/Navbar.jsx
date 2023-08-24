@@ -26,6 +26,16 @@ const Navbar = () => {
               Help
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink className="nav-link font-color" to="/login">
+              Login
+            </NavLink>
+          </li>
+          {/* <li className="nav-item">
+            <NavLink className="nav-link font-color" to="**">
+              Login
+            </NavLink>
+          </li> */}
           {/* <li className="nav-item">
             <a className="nav-link disabled" aria-disabled="true">
               Disabled
